@@ -10,6 +10,8 @@ Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.
 Patch1:         0001-SymCrypt-provider-base-57.patch
 
 BuildRequires:  cmake
+BuildRequires:  openssl-devel
+BuildRequires:  SymCrypt-devel
 Requires:       SymCrypt openssl-libs
 
 %description
