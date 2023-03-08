@@ -12,6 +12,9 @@ Patch1:         0001-SymCrypt-provider-base-57.patch
 BuildRequires:  cmake
 BuildRequires:  openssl-devel
 BuildRequires:  SymCrypt-devel
+BuildRequires:  gcc gcc-c++
+BuildRequires:  pkgconf-pkg-config
+BuildRequires:  sed
 Requires:       SymCrypt openssl-libs
 
 %description
